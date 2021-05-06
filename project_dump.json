@@ -1,0 +1,1184 @@
+[
+{
+    "model": "contacts.contact",
+    "pk": 6,
+    "fields": {
+        "first_name": "Django",
+        "last_name": "Admin",
+        "car_id": 3,
+        "customer_need": "I'm interested in this",
+        "car_title": "MASERATI GRANTURISMO 2018",
+        "city": "Medallo",
+        "state": "Ant",
+        "email": "1158@holbertonschool.com",
+        "phone": "",
+        "message": "Test #2",
+        "user_id": 1,
+        "created_date": "2021-05-04T02:15:10.925Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 7,
+    "fields": {
+        "first_name": "Django",
+        "last_name": "Admin",
+        "car_id": 4,
+        "customer_need": "I'm interested in this",
+        "car_title": "PORSCHE 911 CARRERA GTS 2018",
+        "city": "Medallo",
+        "state": "Ant",
+        "email": "1158@holbertonschool.com",
+        "phone": "",
+        "message": "Test #2",
+        "user_id": 1,
+        "created_date": "2021-05-04T02:20:04.832Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 5,
+    "fields": {
+        "car_title": "2018 Toyota Corolla",
+        "state": "ANT",
+        "city": "Medellín",
+        "color": "White",
+        "model": "Corolla",
+        "year": 2018,
+        "condition": "Used",
+        "price": 120,
+        "description": "<p>The&nbsp;<strong>Toyota Corolla</strong>&nbsp;(Japanese: トヨタ・カローラ,&nbsp;<em>Toyota Karōra</em>)&nbsp;is a line of&nbsp;<a href=\"https://en.wikipedia.org/wiki/Subcompact_car\" title=\"Subcompact car\">subcompact</a>&nbsp;and&nbsp;<a href=\"https://en.wikipedia.org/wiki/Compact_car\" title=\"Compact car\">compact cars</a>&nbsp;manufactured and marketed globally by&nbsp;<a href=\"https://en.wikipedia.org/wiki/Toyota\" title=\"Toyota\">Toyota</a>. Introduced in 1966, the Corolla was the best-selling car worldwide by 1974 and has been one of the best-selling cars in the world since then. In 1997, the Corolla became the&nbsp;<a href=\"https://en.wikipedia.org/wiki/List_of_automobile_sales_by_model\" title=\"List of automobile sales by model\">best selling nameplate in the world</a>, surpassing the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Volkswagen_Beetle\" title=\"Volkswagen Beetle\">Volkswagen Beetle</a>.<a href=\"https://en.wikipedia.org/wiki/Toyota_Corolla#cite_note-1\">[1]</a>&nbsp;Toyota reached the milestone of 44 million Corollas sold over twelve generations in 2016.<a href=\"https://en.wikipedia.org/wiki/Toyota_Corolla#cite_note-44million-2\">[2]</a>&nbsp;The series has undergone several major redesigns.</p>\r\n\r\n<p>The name&nbsp;<em><a href=\"https://en.wikipedia.org/wiki/Corolla_(headgear)\" title=\"Corolla (headgear)\">Corolla</a></em>&nbsp;is part of Toyota&#39;s naming tradition of using names derived from the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Toyota_Crown\" title=\"Toyota Crown\">Toyota Crown</a>&nbsp;for sedans, with&nbsp;<em>&quot;<a href=\"https://en.wiktionary.org/wiki/corolla\" title=\"wikt:corolla\">corolla</a>&quot;</em>&nbsp;<a href=\"https://en.wikipedia.org/wiki/Latin\" title=\"Latin\">Latin</a>&nbsp;for &quot;small crown&quot;.<a href=\"https://en.wikipedia.org/wiki/Toyota_Corolla#cite_note-3\">[3]</a>&nbsp;The Corolla has always been exclusive in Japan to&nbsp;<em><a href=\"https://en.wikipedia.org/wiki/Toyota_Netz\" title=\"Toyota Netz\">Toyota Corolla Store</a></em>&nbsp;locations, and manufactured in Japan with a twin, called the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Toyota_Sprinter\" title=\"Toyota Sprinter\">Toyota Sprinter</a>&nbsp;until 2000. From 2006 to 2018 in Japan and much of the world, and from 2018 to 2020 in Taiwan, the hatchback companion had been called the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Toyota_Auris\" title=\"Toyota Auris\">Toyota Auris</a>.</p>\r\n\r\n<p>Early models were mostly&nbsp;<a href=\"https://en.wikipedia.org/wiki/Rear-wheel_drive\" title=\"Rear-wheel drive\">rear-wheel drive</a>, while later models have been&nbsp;<a href=\"https://en.wikipedia.org/wiki/Front-wheel_drive\" title=\"Front-wheel drive\">front-wheel drive</a>.&nbsp;<a href=\"https://en.wikipedia.org/wiki/Four-wheel_drive\" title=\"Four-wheel drive\">Four-wheel drive</a>&nbsp;versions have also been produced. The Corolla&#39;s traditional competitors have been the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Nissan_Sunny\" title=\"Nissan Sunny\">Nissan Sunny</a>, introduced the same year as the Corolla in Japan and the later&nbsp;<a href=\"https://en.wikipedia.org/wiki/Honda_Civic\" title=\"Honda Civic\">Honda Civic</a>&nbsp;and&nbsp;<a href=\"https://en.wikipedia.org/wiki/Mitsubishi_Lancer\" title=\"\">Mitsubishi Lancer</a>. The Corolla&#39;s chassis designation code is &quot;E&quot;, as described in Toyota&#39;s chassis and engine codes.</p>",
+        "car_photo": "photos/2021/05/04/1900893299.jpg",
+        "car_photo_1": "photos/2021/05/04/1900893311.jpg",
+        "car_photo_2": "photos/2021/05/04/1900893319.jpg",
+        "car_photo_3": "photos/2021/05/04/1900893329.jpg",
+        "car_photo_4": "photos/2021/05/04/1900893391.jpg",
+        "features": "Cruise Control,Airbags,Air Conditioning,Alarm System,Power Steering,Direct Fuel Injection,Auto Start/Stop,Wind Deflector,Bluetooth Handset",
+        "body_style": "Compact",
+        "engine": "1.8-liter 2ZR-FAE V6",
+        "transmission": "Manual",
+        "interior": "Grey",
+        "miles": 24657,
+        "doors": "5",
+        "passengers": 5,
+        "vin_no": "SPK8257AWS092",
+        "milage": 3,
+        "fuel_type": "Gasoline",
+        "no_of_owners": "1",
+        "is_featured": true,
+        "created_date": "2021-05-04T03:14:06Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 6,
+    "fields": {
+        "car_title": "2018 Toyota 4Runner",
+        "state": "ANT",
+        "city": "Medellín",
+        "color": "Grey",
+        "model": "4Runner",
+        "year": 2018,
+        "condition": "Used",
+        "price": 200,
+        "description": "<p>The&nbsp;<strong>Toyota 4Runner</strong>&nbsp;is a compact, later mid-size&nbsp;<a href=\"https://en.wikipedia.org/wiki/Sport_utility_vehicle\" title=\"Sport utility vehicle\">sport utility vehicle</a>&nbsp;produced by the Japanese manufacturer&nbsp;<a href=\"https://en.wikipedia.org/wiki/Toyota\" title=\"Toyota\">Toyota</a>&nbsp;and sold throughout the world from 1984 to present. In Japan, it is known as the&nbsp;<strong>Toyota Hilux Surf</strong>&nbsp;(Japanese: トヨタ・ハイラックスサーフ,&nbsp;<em>Toyota Hairakkususāfu</em>)&nbsp;which was withdrawn from the market in 2009. The original 4Runner was a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Compact_SUV\" title=\"Compact SUV\">compact SUV</a>&nbsp;and little more than a Toyota pickup truck with a fiberglass shell over the bed, but the model has since undergone significant independent development into a cross between a compact and a mid-size SUV. All 4Runners have been built in Japan at Toyota&#39;s&nbsp;<a href=\"https://en.wikipedia.org/wiki/Tahara_plant\" title=\"Tahara plant\">plant</a>&nbsp;in&nbsp;<a href=\"https://en.wikipedia.org/wiki/Tahara,_Aichi\" title=\"Tahara, Aichi\">Tahara, Aichi</a>, or at the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Hino_Motors\" title=\"\">Hino Motors</a>&nbsp;(a Toyota subsidiary) plant in&nbsp;<a href=\"https://en.wikipedia.org/wiki/Hamura\" title=\"Hamura\">Hamura</a>.</p>\r\n\r\n<p>For Southeast Asia the Hilux Surf was replaced in 2005 by the similar&nbsp;<a href=\"https://en.wikipedia.org/wiki/Toyota_Fortuner\" title=\"Toyota Fortuner\">Fortuner</a>, which is based on the Hilux platform.</p>\r\n\r\n<p>As of 2014, the 4Runner is sold in the United States, Bolivia, Canada, Colombia, Central America, Bahamas, Ecuador, Peru, Chile and Venezuela.</p>\r\n\r\n<p>The 4Runner came in at number five in a 2019 study by&nbsp;<a href=\"https://en.wikipedia.org/wiki/ISeeCars.com\" title=\"ISeeCars.com\">iSeeCars.com</a>&nbsp;ranking the longest-lasting vehicles in the US. The 4Runner had 3.9&nbsp;percent of vehicles over 200,000 miles (320,000&nbsp;km), according to the study</p>",
+        "car_photo": "photos/2021/05/04/1893633875.jpg",
+        "car_photo_1": "photos/2021/05/04/1893633884.jpg",
+        "car_photo_2": "photos/2021/05/04/1893633879.jpg",
+        "car_photo_3": "photos/2021/05/04/1896836887.jpg",
+        "car_photo_4": "photos/2021/05/04/1896836883.jpg",
+        "features": "Cruise Control,Audio Interface,Airbags,Air Conditioning,Alarm System,ParkAssist,Power Steering,Direct Fuel Injection,Auto Start/Stop,Wind Deflector,Bluetooth Handset",
+        "body_style": "Compact SUV",
+        "engine": "2.4 L 22R I4",
+        "transmission": "Manual",
+        "interior": "Black",
+        "miles": 41785,
+        "doors": "5",
+        "passengers": 7,
+        "vin_no": "HIJ8702ASFD2LMSD",
+        "milage": 5,
+        "fuel_type": "Gasoline",
+        "no_of_owners": "2",
+        "is_featured": true,
+        "created_date": "2021-05-04T03:29:55Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 7,
+    "fields": {
+        "car_title": "2017 Ford F-250 Super Duty",
+        "state": "BOG",
+        "city": "Bogota",
+        "color": "Black",
+        "model": "F-250 Super Duty",
+        "year": 2017,
+        "condition": "Used",
+        "price": 250,
+        "description": "<p>The&nbsp;<strong>Ford Super Duty</strong>&nbsp;(short for F-Series Super Duty) is a series of trucks manufactured by the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Motor_Company\" title=\"Ford Motor Company\">Ford Motor Company</a>. Introduced in 1998 for the 1999 model year (the 1998 model year was skipped), the F-Series Super Duty trucks marked the addition of a heavy-duty pickup to the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_F-Series\" title=\"Ford F-Series\">Ford F-Series</a>&nbsp;range with the new versions of the F-250, F-350, and F-450 trucks, while the previous 1987&ndash;1997 F-Super Duty&nbsp;<a href=\"https://en.wikipedia.org/wiki/Chassis_cab\" title=\"Chassis cab\">chassis cabs</a>&nbsp;were replaced by the F-450 chassis cab and F-550 Super Duty.</p>\r\n\r\n<p>The Super Duty trucks utilize a distinct chassis from the lighter&nbsp;<a href=\"https://en.wikipedia.org/wiki/F-150\" title=\"F-150\">F-150</a>, with heavier-duty chassis and suspension components to allow for higher payload and towing capacities; additionally, the product line continued the use of&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Power_Stroke_engine\" title=\"Ford Power Stroke engine\">Ford PowerStroke</a>&nbsp;diesel engines. With a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Gross_vehicle_weight_rating\" title=\"Gross vehicle weight rating\">GVWR</a>&nbsp;over 8,500&nbsp;lb (3,900&nbsp;kg), Super Duty pickups are&nbsp;<a href=\"https://en.wikipedia.org/wiki/Truck_classification\" title=\"Truck classification\">class 2 and 3</a>&nbsp;trucks while chassis cab trucks are class 4 and class 5. The F-Series Super Duty has been used as the base chassis of the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Excursion\" title=\"Ford Excursion\">Ford Excursion</a>&nbsp;full-size SUV.</p>\r\n\r\n<p>Ford F-250 to F-550 Super Duty trucks are assembled at the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Kentucky_Truck_Assembly\" title=\"Kentucky Truck Assembly\">Kentucky Truck Plant</a>&nbsp;in&nbsp;<a href=\"https://en.wikipedia.org/wiki/Louisville,_Kentucky\" title=\"Louisville, Kentucky\">Louisville, Kentucky</a>, while medium-duty&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_F-650\" title=\"\">F-650 and F-750s</a>&nbsp;are assembled at&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ohio_Assembly\" title=\"Ohio Assembly\">Ohio Assembly</a>&nbsp;in&nbsp;<a href=\"https://en.wikipedia.org/wiki/Avon_Lake,_Ohio\" title=\"Avon Lake, Ohio\">Avon Lake, Ohio</a>&nbsp;(prior to 2016, medium-duty trucks were assembled in the Blue Diamond Truck joint venture with&nbsp;<a href=\"https://en.wikipedia.org/wiki/Navistar\" title=\"Navistar\">Navistar</a>&nbsp;in Mexico). As of 2016, the Ford Super Duty is sold in the United States, Canada, Mexico, Venezuela (F-250 and F-350), Suriname, Brazil (F-350/F-4000), Argentina (F-4000 only), Angola (F-250 and F-350), Cambodia, the Middle East, and Iceland (F-350 only) in LHD only. In Suriname, even though traffic is on the left side of the road, the import and registry of left hand drive vehicles is allowed. In Australia, it was officially imported in right hand drive from Brazil between 2001&ndash;06, however as of 2007, Ford no longer offers the Super Duty in Australia.</p>",
+        "car_photo": "photos/2021/05/04/1894300905.jpg",
+        "car_photo_1": "photos/2021/05/04/1894300920.jpg",
+        "car_photo_2": "photos/2021/05/04/1900155012.jpg",
+        "car_photo_3": "photos/2021/05/04/1894300894.jpg",
+        "car_photo_4": "photos/2021/05/04/1900155133.jpg",
+        "features": "Cruise Control,Audio Interface,Airbags,Air Conditioning,Seat Heating,Alarm System,ParkAssist,Power Steering,Reversing Camera,Direct Fuel Injection,Auto Start/Stop,Bluetooth Handset",
+        "body_style": "SUV",
+        "engine": "6.8L 30-valve V10",
+        "transmission": "Automatic",
+        "interior": "Grey",
+        "miles": 13275,
+        "doors": "4",
+        "passengers": 5,
+        "vin_no": "PER1239US342JDS",
+        "milage": 2,
+        "fuel_type": "Diesel",
+        "no_of_owners": "1",
+        "is_featured": false,
+        "created_date": "2021-05-04T03:33:49Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 8,
+    "fields": {
+        "car_title": "2017 Ford Edge",
+        "state": "VAC",
+        "city": "Cali",
+        "color": "Black",
+        "model": "Edge",
+        "year": 2017,
+        "condition": "Used",
+        "price": 180,
+        "description": "<p>The&nbsp;<strong>Ford Edge</strong>&nbsp;is a range of&nbsp;<a href=\"https://en.wikipedia.org/wiki/Crossover_(automobile)\" title=\"Crossover (automobile)\">crossover SUVs</a>&nbsp;manufactured by the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Motor_Company\" title=\"Ford Motor Company\">Ford Motor Company</a>. Introduced for the 2007 model year, the Edge is the first&nbsp;<a href=\"https://en.wikipedia.org/wiki/Mid-size_CUV\" title=\"Mid-size CUV\">mid-size CUV</a>&nbsp;marketed by Ford in North America; the model line is currently in its second generation. Deriving its name from a trim package of the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Ranger_(Americas)\" title=\"Ford Ranger (Americas)\">Ford Ranger</a>, the Ford Edge is slotted between the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Escape\" title=\"Ford Escape\">Ford Escape</a>&nbsp;and the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Explorer\" title=\"Ford Explorer\">Ford Explorer</a>&nbsp;within the Ford product line.</p>\r\n\r\n<p>Sharing its underpinnings with the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Fusion_(Americas)\" title=\"Ford Fusion (Americas)\">Ford Fusion sedan</a>, Ford has also produced the model line as the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Lincoln_MKX\" title=\"Lincoln MKX\">Lincoln MKX</a>&nbsp;(since 2019, the Lincoln Nautilus); the first generation was also produced as the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Mazda_CX-9\" title=\"Mazda CX-9\">Mazda CX-9</a>. The second generation is also marketed by&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_of_Europe\" title=\"Ford of Europe\">Ford of Europe</a>, slotted between the Kuga (Escape) and the Explorer PHEV.</p>\r\n\r\n<p>All production of the Ford Edge is sourced from&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Motor_Company_of_Canada\" title=\"Ford Motor Company of Canada\">Ford of Canada</a>&nbsp;at&nbsp;<a href=\"https://en.wikipedia.org/wiki/Oakville_Assembly\" title=\"Oakville Assembly\">Oakville Assembly</a>&nbsp;(<a href=\"https://en.wikipedia.org/wiki/Oakville,_Ontario\" title=\"\">Oakville, Ontario</a>) alongside the Nautilus.</p>",
+        "car_photo": "photos/2021/05/04/1901478607.jpg",
+        "car_photo_1": "photos/2021/05/04/1901478618.jpg",
+        "car_photo_2": "photos/2021/05/04/1901478646.jpg",
+        "car_photo_3": "photos/2021/05/04/1901478672.jpg",
+        "car_photo_4": "photos/2021/05/04/1901478687.jpg",
+        "features": "Cruise Control,Audio Interface,Airbags,Alarm System,ParkAssist,Reversing Camera,Direct Fuel Injection,Auto Start/Stop,Bluetooth Handset",
+        "body_style": "SUV",
+        "engine": "2.1L Mid-Engine V6",
+        "transmission": "Automatic",
+        "interior": "Grey",
+        "miles": 31633,
+        "doors": "5",
+        "passengers": 5,
+        "vin_no": "WPA8715JAS85612",
+        "milage": 2,
+        "fuel_type": "Petrol",
+        "no_of_owners": "2",
+        "is_featured": false,
+        "created_date": "2021-05-04T03:51:02Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 9,
+    "fields": {
+        "car_title": "2017 Jaguar F-PACE",
+        "state": "BOL",
+        "city": "Cartagena",
+        "color": "Green",
+        "model": "F-PACE",
+        "year": 2017,
+        "condition": "Used",
+        "price": 150,
+        "description": "<p>The&nbsp;<strong>Jaguar F-Pace</strong>&nbsp;(X761) is a compact SUV made by&nbsp;<a href=\"https://en.wikipedia.org/wiki/Jaguar_Land_Rover\" title=\"Jaguar Land Rover\">Jaguar Land Rover</a>, a British&nbsp;<a href=\"https://en.wikipedia.org/wiki/Automaker\" title=\"Automaker\">car manufacturer</a>, under their&nbsp;<a href=\"https://en.wikipedia.org/wiki/Jaguar_Cars\" title=\"Jaguar Cars\">Jaguar marque</a>. It is the first model to be built by Jaguar in the SUV class. It was formally announced at the&nbsp;<a href=\"https://en.wikipedia.org/wiki/North_American_International_Auto_Show#2015\" title=\"North American International Auto Show\">2015 North American International Auto Show</a>&nbsp;in Detroit, with sales commencing in 2016 following an unveiling at the&nbsp;<a href=\"https://en.wikipedia.org/wiki/International_Motor_Show_Germany#2015\" title=\"International Motor Show Germany\">International Motor Show Germany</a>&nbsp;in Frankfurt in September 2015.<a href=\"https://en.wikipedia.org/wiki/Jaguar_F-Pace#cite_note-4\">[4]</a>&nbsp;The design of the F-Pace is based on the 2013&nbsp;<a href=\"https://en.wikipedia.org/wiki/Jaguar_C-X17\" title=\"Jaguar C-X17\">Jaguar C-X17</a>&nbsp;concept car.<a href=\"https://en.wikipedia.org/wiki/Jaguar_F-Pace#cite_note-BBC_News_120115-5\">[5]</a>&nbsp;The 2017 Jaguar F-PACE has been named the honorary winner of the 2017 World Car of the Year and World Car Design of the Year Awards at the&nbsp;<a href=\"https://en.wikipedia.org/wiki/New_York_International_Auto_Show\" title=\"New York International Auto Show\">New York International Auto Show</a>.<a href=\"https://en.wikipedia.org/wiki/Jaguar_F-Pace#cite_note-6\">[6]</a></p>\r\n\r\n<p>The F-Pace is built at&nbsp;<a href=\"https://en.wikipedia.org/wiki/Jaguar_Land_Rover\" title=\"\">Jaguar Land Rover</a>&#39;s&nbsp;<a href=\"https://en.wikipedia.org/wiki/Solihull_plant\" title=\"Solihull plant\">Solihull plant</a>&nbsp;along with the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Range_Rover_Velar\" title=\"Range Rover Velar\">Range Rover Velar</a>&nbsp;and employs an additional 1,300 workers.</p>",
+        "car_photo": "photos/2021/05/04/1902932542.jpg",
+        "car_photo_1": "photos/2021/05/04/1902932514.jpg",
+        "car_photo_2": "photos/2021/05/04/1902932528.jpg",
+        "car_photo_3": "photos/2021/05/04/1902932503.jpg",
+        "car_photo_4": "",
+        "features": "Cruise Control,Audio Interface,Airbags,Air Conditioning,Seat Heating,Alarm System,ParkAssist,Power Steering,Bluetooth Handset",
+        "body_style": "Compact SUV",
+        "engine": "3.0L V6 Jaguar AJ126",
+        "transmission": "Manual",
+        "interior": "Black",
+        "miles": 34500,
+        "doors": "5",
+        "passengers": 5,
+        "vin_no": "FHFGFS4345SS2E",
+        "milage": 3,
+        "fuel_type": "Petrol",
+        "no_of_owners": "2",
+        "is_featured": false,
+        "created_date": "2021-05-04T03:53:53Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 10,
+    "fields": {
+        "car_title": "2017 MERCEDES BENZ A200",
+        "state": "ANT",
+        "city": "Envigado",
+        "color": "White",
+        "model": "A200",
+        "year": 2017,
+        "condition": "Used",
+        "price": 130,
+        "description": "<p>The&nbsp;<strong>Mercedes-Benz</strong>&nbsp;is a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Luxury_vehicle#Premium_compact\" title=\"Luxury vehicle\">subcompact luxury</a>&nbsp;<a href=\"https://en.wikipedia.org/wiki/Crossover_SUV\" title=\"Crossover SUV\">crossover SUV</a>&nbsp;manufactured and marketed by&nbsp;<a href=\"https://en.wikipedia.org/wiki/Mercedes-Benz\" title=\"Mercedes-Benz\">Mercedes-Benz</a>&nbsp;over two generations. It is essentially the SUV equivalent of the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Mercedes-Benz_A-Class\" title=\"Mercedes-Benz A-Class\">A-Class</a>, and the smallest SUV marketed by the brand.The production version was revealed in August 2013 ahead of the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Frankfurt_Auto_Show#2013\" title=\"Frankfurt Auto Show\">2013 Frankfurt Auto Show</a>&nbsp;in September 2013.</p>\r\n\r\n<p>The GLA-Class is powered by a range of petrol and diesel 4-cylinder engines, and comes in either front-wheel drive or all-wheel drive, the latter marketed by Mercedes as&nbsp;<em><a href=\"https://en.wikipedia.org/wiki/4Matic\" title=\"4Matic\">4MATIC</a></em>.</p>\r\n\r\n<p>The&nbsp;<em>GLA</em>&nbsp;nameplate aligns with Mercedes SUV nomenclature, where&nbsp;<em>GL</em>&nbsp;stands for&nbsp;<em>Gel&auml;ndewagen</em>&nbsp;(German for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Off-road_vehicle\" title=\"Off-road vehicle\">off-road vehicle</a>) and the&nbsp;<em>A</em>&nbsp;designates its overall place in the Mercedes range, in this class, the smallest or&nbsp;<a href=\"https://en.wikipedia.org/wiki/Mercedes-Benz_A-Class\" title=\"\">A-Class</a>.</p>",
+        "car_photo": "photos/2021/05/04/WhatsApp-Image-2020-10-23-at-17.19.17-2_Yosowof.jpeg",
+        "car_photo_1": "photos/2021/05/04/WhatsApp-Image-2020-10-23-at-17.19.17-1_SRovpNX.jpeg",
+        "car_photo_2": "photos/2021/05/04/WhatsApp-Image-2020-10-23-at-17.19.17-3-1.jpeg",
+        "car_photo_3": "photos/2021/05/04/WhatsApp-Image-2020-10-23-at-17.19.17-4.jpeg",
+        "car_photo_4": "photos/2021/05/04/WhatsApp-Image-2020-10-23-at-17.19.17-7.jpeg",
+        "features": "Cruise Control,Audio Interface,Air Conditioning,Seat Heating,Alarm System,ParkAssist,Power Steering,Reversing Camera,Direct Fuel Injection,Bluetooth Handset",
+        "body_style": "Subcompact",
+        "engine": "1.8-liter 2ZR-FAE V6",
+        "transmission": "Automatic",
+        "interior": "Black",
+        "miles": 23900,
+        "doors": "5",
+        "passengers": 5,
+        "vin_no": "WPA8715JAS85612",
+        "milage": 4,
+        "fuel_type": "Petrol",
+        "no_of_owners": "1",
+        "is_featured": true,
+        "created_date": "2021-05-04T04:13:09Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 11,
+    "fields": {
+        "car_title": "2019 AUDI Q8 HÍBRIDO",
+        "state": "BOG",
+        "city": "Bogota",
+        "color": "Black",
+        "model": "Q8",
+        "year": 2019,
+        "condition": "Used",
+        "price": 160,
+        "description": "<p>The Audi Q8 is the first SUV model under Audi&#39;s new head of design, Marc Lichte, and will introduce a new design language for the brand&#39;s SUVs. The grill is larger and now has an octagonal shape, with both vertical and horizontal slats, and the character lines of the Q8 are inspired by the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Audi_Quattro\" title=\"\">Audi Quattro</a>&nbsp;rally car from the 1980s. The Audi Q8 features full-laser headlamps and taillamps, the first-ever in a crossover or SUV. The interior features the knob-less&nbsp;<a href=\"https://en.wikipedia.org/wiki/Multi_Media_Interface\" title=\"Multi Media Interface\">MMI</a>&nbsp;system, three touch screens and an enlarged virtual cockpit which has a fully digital instrument cluster.&nbsp;Additionally, both haptic and acoustic feedback are provided in response to user inputs.</p>\r\n\r\n<p>The Q8 is slightly shorter than the Q7 in terms of both length and height, but is slightly wider. It also has less cargo space than the Q7 due to its sloped roofline, and unlike the Q7, the Q8 is not available with third-row seats. According to the Volkswagen Group&#39;s product strategy the Audi Q8 shares its platform with the Lamborghini Urus, among other products.</p>",
+        "car_photo": "photos/2021/05/04/DSC04575-1-scaled.jpg",
+        "car_photo_1": "photos/2021/05/04/DSC04576-scaled.jpg",
+        "car_photo_2": "photos/2021/05/04/DSC04578-scaled.jpg",
+        "car_photo_3": "photos/2021/05/04/DSC04580-scaled.jpg",
+        "car_photo_4": "photos/2021/05/04/DSC04585-scaled.jpg",
+        "features": "Cruise Control,Audio Interface,Airbags,Air Conditioning,Seat Heating,Power Steering,Reversing Camera,Direct Fuel Injection,Auto Start/Stop,Bluetooth Handset",
+        "body_style": "SUV",
+        "engine": "3.4L Mid-Engine V6",
+        "transmission": "Automatic",
+        "interior": "Grey",
+        "miles": 20987,
+        "doors": "5",
+        "passengers": 5,
+        "vin_no": "PER1239US342JDS",
+        "milage": 12,
+        "fuel_type": "Diesel",
+        "no_of_owners": "1",
+        "is_featured": true,
+        "created_date": "2021-05-04T04:30:12Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 12,
+    "fields": {
+        "car_title": "2019 BMW 225X EHÍBRIDO",
+        "state": "ANT",
+        "city": "Sabaneta",
+        "color": "Blue",
+        "model": "225X",
+        "year": 2019,
+        "condition": "Used",
+        "price": 150,
+        "description": "<p>The&nbsp;<strong>BMW 2 Series Active Tourer</strong>&nbsp;(<strong>F45</strong>&nbsp;model code) is a two-row&nbsp;<a href=\"https://en.wikipedia.org/wiki/Compact_MPV\" title=\"Compact MPV\">compact MPV</a>&nbsp;produced by&nbsp;<a href=\"https://en.wikipedia.org/wiki/BMW\" title=\"BMW\">BMW</a>&nbsp;since August 2014. The closely related&nbsp;<strong>BMW 2 Series Gran Tourer</strong>&nbsp;(F46 model code) is a longer three-row version which began production in 2015. Marketed as part of the&nbsp;<a href=\"https://en.wikipedia.org/wiki/BMW_2_Series\" title=\"BMW 2 Series\">2 Series</a>&nbsp;range, the F45/F46 are based on the front-wheel-drive&nbsp;<a href=\"https://en.wikipedia.org/wiki/BMW_UKL2_platform\" title=\"BMW UKL2 platform\">UKL2 platform</a>. The design is based on the BMW Concept Active Tourer, and is mechanically related to the&nbsp;<a href=\"https://en.wikipedia.org/wiki/MINI_Countryman\" title=\"MINI Countryman\">MINI Countryman</a>, also built by BMW.</p>\r\n\r\n<p>The F45/F46 are the first&nbsp;<a href=\"https://en.wikipedia.org/wiki/Front-wheel_drive\" title=\"Front-wheel drive\">front-wheel drive</a>&nbsp;vehicles sold under the BMW marque, designed to compete directly with the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Mercedes-Benz_B-Class\" title=\"Mercedes-Benz B-Class\">Mercedes-Benz B-Class</a>. Sales commenced in November 2014. An all-wheel-drive&nbsp;<a href=\"https://en.wikipedia.org/wiki/BMW_xDrive\" title=\"\">xDrive</a>&nbsp;system is offered as an option.</p>",
+        "car_photo": "photos/2021/05/04/DSC02659-1-scaled.jpg",
+        "car_photo_1": "photos/2021/05/04/DSC02660-scaled.jpg",
+        "car_photo_2": "photos/2021/05/04/DSC02661-scaled.jpg",
+        "car_photo_3": "photos/2021/05/04/DSC02663-scaled.jpg",
+        "car_photo_4": "photos/2021/05/04/DSC02669-scaled.jpg",
+        "features": "Cruise Control,Audio Interface,Airbags,Air Conditioning,Seat Heating,ParkAssist,Power Steering,Reversing Camera,Auto Start/Stop,Wind Deflector",
+        "body_style": "SUV",
+        "engine": "6.8L 30-valve V10",
+        "transmission": "Manual",
+        "interior": "Black",
+        "miles": 8921,
+        "doors": "5",
+        "passengers": 5,
+        "vin_no": "WPA8715JAS85612",
+        "milage": 1,
+        "fuel_type": "Diesel",
+        "no_of_owners": "1",
+        "is_featured": true,
+        "created_date": "2021-05-04T04:36:09Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 1,
+    "fields": {
+        "first_name": "Alejandro",
+        "last_name": "Arbelaez Giraldo",
+        "designation": "Backend Developer",
+        "photo": "photos/2021/05/01/WhatsApp_Image_2020-06-17_at_4.48.06_PM_P8jsigD.jpeg",
+        "twitter_link": "https://twitter.com/AlejoArbelaez21",
+        "github_link": "https://github.com/AlejandroArbelaez21",
+        "linkedin_link": "https://www.linkedin.com/in/alejandro-arbelaez/",
+        "created_date": "2021-05-01T00:19:48.255Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 2,
+    "fields": {
+        "first_name": "David",
+        "last_name": "Agudelo Theran",
+        "designation": "Frontend Developer",
+        "photo": "photos/2021/05/01/1576857158096.jpeg",
+        "twitter_link": "https://twitter.com/Dagute",
+        "github_link": "https://github.com/dagute",
+        "linkedin_link": "https://www.linkedin.com/in/dagute/",
+        "created_date": "2021-05-01T00:20:46.332Z"
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$260000$HClndjgs6JSCgQe0BEGc7J$5XifdpITCl2Jqgf7V1nmK3IpABdiayADCv6vekjt2d4=",
+        "last_login": "2021-05-04T01:49:30Z",
+        "is_superuser": true,
+        "username": "DjangoAdmin",
+        "first_name": "Django",
+        "last_name": "Admin",
+        "email": "inforentappcar@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-04-30T23:59:16Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "dv4wvhz6a8sfa1j1oclmlof6suw33xij",
+    "fields": {
+        "session_data": ".eJxVjDsOwyAQRO9CHSHMZ21SpvcZEOxCcBKBZOwqyt2DJRdJN3rzZt7M-X3Lbm9xdQuxKxvY5ZcFj89YjoIevtwrx1q2dQn8UPjZNj5Xiq_b6f4dZN9yX6thMkFDsAml0pMyaIWMYAVhCkkYAK1DSsIqaRA8jJJ0p0TU06g0-3wBy4M3Sw:1ldgXc:Ime3G-FMZsYekRTPgVRqKTjZr8dZSHIBa1hekZyVZks",
+        "expire_date": "2021-05-17T21:55:48.291Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "xu6k2trrzdy37qjyg6vohzotiux1qia0",
+    "fields": {
+        "session_data": "eyJzb2NpYWxhY2NvdW50X3N0YXRlIjpbeyJwcm9jZXNzIjoibG9naW4iLCJzY29wZSI6IiIsImF1dGhfcGFyYW1zIjoiIn0sIlRFVlpGRmFaREVHaSJdfQ:1ldn05:bVKH7XtHZGo-guM_za35IL9S14AL1IS-EiX4pAdoGgg",
+        "expire_date": "2021-05-18T04:49:37.819Z"
+    }
+},
+{
+    "model": "sites.site",
+    "fields": {
+        "domain": "localhost:8000",
+        "name": "localhost:8000"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2021-05-01T00:19:48.257Z",
+        "user": [
+            "DjangoAdmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "Alejandro",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2021-05-01T00:20:46.335Z",
+        "user": [
+            "DjangoAdmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "2",
+        "object_repr": "David",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2021-05-01T00:52:47.670Z",
+        "user": [
+            "DjangoAdmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "Alejandro",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2021-05-01T02:11:02.300Z",
+        "user": [
+            "DjangoAdmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "1",
+        "object_repr": "2018 Toyota 4Runner",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2021-05-01T02:14:06.366Z",
+        "user": [
+            "DjangoAdmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "2",
+        "object_repr": "2018 Toyota Corolla",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2021-05-01T02:45:51.596Z",
+        "user": [
+            "DjangoAdmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "2",
+        "object_repr": "2018 Toyota Corolla",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2021-05-01T02:45:51.603Z",
+        "user": [
+            "DjangoAdmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "1",
+        "object_repr": "2018 Toyota 4Runner",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2021-05-01T02:59:16.367Z",
+        "user": [
+            "DjangoAdmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "3",
+        "object_repr": "MASERATI GRANTURISMO 2018",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2021-05-01T03:02:25.197Z",
+        "user": [
+            "DjangoAdmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "4",
+        "object_repr": "PORSCHE 911 CARRERA GTS 2018",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2021-05-01T04:40:27.203Z",
+        "user": [
+            "DjangoAdmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "4",
+        "object_repr": "PORSCHE 911 CARRERA GTS 2018",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Price\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2021-05-01T04:40:41.546Z",
+        "user": [
+            "DjangoAdmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "3",
+        "object_repr": "MASERATI GRANTURISMO 2018",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Price\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2021-05-01T21:06:33.534Z",
+        "user": [
+            "DjangoAdmin"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "1",
+        "object_repr": "Facebook login",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2021-05-01T21:07:23.402Z",
+        "user": [
+            "DjangoAdmin"
+        ],
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "object_id": "1",
+        "object_repr": "localhost:8000",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2021-05-02T04:57:47.630Z",
+        "user": [
+            "DjangoAdmin"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "2",
+        "object_repr": "Google Login",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2021-05-03T23:45:41.107Z",
+        "user": [
+            "DjangoAdmin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "3",
+        "object_repr": "JhonDue123",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Email address\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2021-05-03T23:46:14.827Z",
+        "user": [
+            "DjangoAdmin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "1",
+        "object_repr": "DjangoAdmin",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Email address\", \"Last login\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2021-05-03T23:51:27.951Z",
+        "user": [
+            "DjangoAdmin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "1",
+        "object_repr": "DjangoAdmin",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2021-05-04T01:50:20.502Z",
+        "user": [
+            "DjangoAdmin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "4",
+        "object_repr": "alejandro",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2021-05-04T01:50:20.508Z",
+        "user": [
+            "DjangoAdmin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "5",
+        "object_repr": "alejandro2",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2021-05-04T01:50:20.511Z",
+        "user": [
+            "DjangoAdmin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "2",
+        "object_repr": "alejandro.arbelaez21@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2021-05-04T01:50:20.514Z",
+        "user": [
+            "DjangoAdmin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "3",
+        "object_repr": "JhonDue123",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2021-05-04T01:58:44.203Z",
+        "user": [
+            "DjangoAdmin"
+        ],
+        "content_type": [
+            "contacts",
+            "contact"
+        ],
+        "object_id": "5",
+        "object_repr": "1158@holbertonschool.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2021-05-04T01:58:44.212Z",
+        "user": [
+            "DjangoAdmin"
+        ],
+        "content_type": [
+            "contacts",
+            "contact"
+        ],
+        "object_id": "4",
+        "object_repr": "1158@holbertonschool.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2021-05-04T01:58:44.215Z",
+        "user": [
+            "DjangoAdmin"
+        ],
+        "content_type": [
+            "contacts",
+            "contact"
+        ],
+        "object_id": "3",
+        "object_repr": "1158@holbertonschool.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2021-05-04T01:58:44.218Z",
+        "user": [
+            "DjangoAdmin"
+        ],
+        "content_type": [
+            "contacts",
+            "contact"
+        ],
+        "object_id": "2",
+        "object_repr": "1158@holbertonschool.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2021-05-04T01:58:44.221Z",
+        "user": [
+            "DjangoAdmin"
+        ],
+        "content_type": [
+            "contacts",
+            "contact"
+        ],
+        "object_id": "1",
+        "object_repr": "1158@holbertonschool.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2021-05-04T02:45:47.602Z",
+        "user": [
+            "DjangoAdmin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "1",
+        "object_repr": "DjangoAdmin",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Email address\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2021-05-04T02:57:36.907Z",
+        "user": [
+            "DjangoAdmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "4",
+        "object_repr": "PORSCHE 911 CARRERA GTS 2018",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2021-05-04T02:57:36.910Z",
+        "user": [
+            "DjangoAdmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "3",
+        "object_repr": "MASERATI GRANTURISMO 2018",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2021-05-04T03:23:07.827Z",
+        "user": [
+            "DjangoAdmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "5",
+        "object_repr": "2018 Toyota Corolla",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2021-05-04T03:32:30.484Z",
+        "user": [
+            "DjangoAdmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "6",
+        "object_repr": "2018 Toyota 4Runner",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2021-05-04T03:40:29.839Z",
+        "user": [
+            "DjangoAdmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "7",
+        "object_repr": "2017 Ford F-250 Super Duty",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2021-05-04T03:45:43.279Z",
+        "user": [
+            "DjangoAdmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "7",
+        "object_repr": "2017 Ford F-250 Super Duty",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2021-05-04T03:45:58.321Z",
+        "user": [
+            "DjangoAdmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "6",
+        "object_repr": "2018 Toyota 4Runner",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Transmission\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2021-05-04T03:46:15.569Z",
+        "user": [
+            "DjangoAdmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "5",
+        "object_repr": "2018 Toyota Corolla",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Transmission\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2021-05-04T03:53:45.692Z",
+        "user": [
+            "DjangoAdmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "8",
+        "object_repr": "2017 Ford Edge",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2021-05-04T04:00:35.966Z",
+        "user": [
+            "DjangoAdmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "9",
+        "object_repr": "2017 Jaguar F-PACE",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2021-05-04T04:27:57.700Z",
+        "user": [
+            "DjangoAdmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "10",
+        "object_repr": "2017 MERCEDES BENZ A200",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2021-05-04T04:28:49.219Z",
+        "user": [
+            "DjangoAdmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "10",
+        "object_repr": "2017 MERCEDES BENZ A200",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Car photo\", \"Car photo 1\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2021-05-04T04:34:07.175Z",
+        "user": [
+            "DjangoAdmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "11",
+        "object_repr": "2019 AUDI Q8 HÍBRIDO",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2021-05-04T04:39:06.830Z",
+        "user": [
+            "DjangoAdmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "12",
+        "object_repr": "2019 BMW 225X EHÍBRIDO",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2021-05-04T04:43:00.651Z",
+        "user": [
+            "DjangoAdmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "13",
+        "object_repr": "2018 PORSCHE 911 GTS",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2021-05-04T04:47:29.236Z",
+        "user": [
+            "DjangoAdmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "13",
+        "object_repr": "2018 PORSCHE 911 GTS",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "socialaccount.socialapp",
+    "pk": 1,
+    "fields": {
+        "provider": "facebook",
+        "name": "Facebook login",
+        "client_id": "744918206188158",
+        "secret": "62f4adb7e2c9b19bb80e6911ffa32b09",
+        "key": "",
+        "sites": [
+            [
+                "localhost:8000"
+            ]
+        ]
+    }
+},
+{
+    "model": "socialaccount.socialapp",
+    "pk": 2,
+    "fields": {
+        "provider": "google",
+        "name": "Google Login",
+        "client_id": "50599386009-5gfieqnq5fomt6gqmq25kk370o9asses.apps.googleusercontent.com",
+        "secret": "k2pXt7EDsiUjPBOFVj9b3aQO",
+        "key": "",
+        "sites": [
+            [
+                "localhost:8000"
+            ]
+        ]
+    }
+}
+]
